@@ -29,17 +29,27 @@ body {
 
 
 .hero-title {
-	width: 998px;
+	width: 946px;
 	color: #0D1321;
-	font-size: 48px;
-	font-weight: 800;
-	line-height: 68px;
+	font-size: 45px;
+	font-weight: 758;
+	line-height: 63px;
 	margin-top: 32px;
 }
 
 .hero-description {
-	width: 852px;
+	width: 808px;
 	color: #0D1321;
 	margin-top: 24px;
 	margin-bottom: 32px;
+	line-height: 24px;
+}
+
+.btn {
+	color: #FFF;
+	font-size: 19px;
+	font-weight: 569px;
+	padding: 19px 22px;
+	border-radius: 8px;
+	background: #0D1321;
 }
