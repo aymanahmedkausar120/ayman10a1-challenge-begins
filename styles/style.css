@@ -40,7 +40,7 @@ body {
 	width: 808px;
 	color: #0D1321;
 	margin-top: 26px;
-	margin-bottom: 32px;
+	margin-bottom: 39px;
 	line-height: 24px;
 	opacity: 0.7;
 
@@ -52,6 +52,7 @@ body {
 	font-weight: 569px;
 	padding: 19px 26px;
 	border-radius: 8px;
+	text-decoration: none;
 	background: #0D1321;
 }
 
