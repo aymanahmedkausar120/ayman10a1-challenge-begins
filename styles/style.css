@@ -32,25 +32,25 @@ body {
 	color: #0D1321;
 	font-size: 45px;
 	font-weight: 758;
-	line-height: 60px;
-	margin-top: 32px;
+	line-height: 62px;
+	margin-top: 40px;
 }
 
 .hero-description {
 	width: 808px;
 	color: #0D1321;
-	margin-top: 24px;
+	margin-top: 26px;
 	margin-bottom: 32px;
-	line-height: 22px;
+	line-height: 24px;
 	opacity: 0.7;
 
 }
 
 .btn {
 	color: #FFF;
-	font-size: 19px;
+	font-size: 20px;
 	font-weight: 569px;
-	padding: 19px 22px;
+	padding: 19px 26px;
 	text-decoration: none;
 	border-radius: 8px;
 	background: #0D1321;
@@ -104,11 +104,15 @@ main {
 
 }
 
+/* coding img width height */
+
 .coding-container img,
 .coding-life-future img {
 	width: 259px;
 	height: 227px;
 }
+
+/* coding dive ar width */
 
 .coding,
 .coding-future {
@@ -264,7 +268,6 @@ main {
 	padding: 60px 45px;
 	margin-top: 45px;
 	border-radius: 16px;
-
 }
 
 .support-content {
@@ -287,12 +290,13 @@ main {
 }
 
 input {
-	padding: 19px 20px;
+	padding: 18px 20px;
 	color: rgba(13, 19, 33, 0.40);
-	width: 518px;
+	width: 514px;
 	background: #FFF;
 	border-radius: 8px;
 	border: 1px solid rgba(13, 19, 33, 0.15);
+	cursor: pointer;
 
 }
 
@@ -302,8 +306,9 @@ input {
 	font-weight: 600px;
 	background: #FFF;
 	border-radius: 8px;
-	padding: 16px 22px;
+	padding: 16px 28px;
 	border: none;
+	cursor: pointer;
 }
 
 /* footer styles */
