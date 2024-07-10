@@ -80,11 +80,13 @@ main {
 }
 
 .web-title {
+	color: #0D1321;
 	font-size: 30px;
 	font-weight: 758px;
 }
 
 .web-description {
+	color: #0D1321;
 	opacity: 0.7;
 	margin: 22px 46px 46px 46px;
 }
@@ -159,4 +161,40 @@ main {
 
 .help-people {
 	width: 453px;
+}
+
+/* inspiration section styles */
+
+.inspiration-content-container {
+	margin-top: 86px;
+}
+
+.inspiration-content {
+	padding: 0 140px;
+	text-align: center;
+}
+
+.inspiration-title {
+	color: #0D1321;
+	font-size: 30px;
+	font-weight: 758px;
+}
+
+.inspiration-description {
+	color: #0D1321;
+	opacity: 0.7;
+	margin-top: 24px;
+}
+
+.video {
+	max-width: 1082px;
+	border-radius: 16px;
+	padding: 30px;
+	border: 1px solid rgba(13, 19, 33, 0.20);
+	margin-top: 45px;
+}
+
+.video iframe {
+	border-radius: 16px;
+	width: 100%;
 }
