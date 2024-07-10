@@ -24,7 +24,6 @@ body {
 	align-items: center;
 	padding: 30px 212px 58px 212px;
 	text-align: center;
-	border: 2px solid red;
 
 }
 
@@ -68,19 +67,16 @@ main {
 	border-radius: 16px;
 	padding-top: 75px;
 	padding-bottom: 75px;
-	border: 2px solid red;
 }
 
 .web-content-container {
 	max-width: 897px;
 	margin: 0 auto;
-	border: 2px solid red;
 }
 
 .web-content {
 	text-align: center;
 	margin: 0 auto;
-	border: 2px solid red;
 }
 
 .web-title {
