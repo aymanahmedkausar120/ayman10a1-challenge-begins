@@ -16,24 +16,24 @@ body {
 .hero-section-container {
 	background-image: url(../assets/Hero-bg.png);
 	max-width: 1366px;
-	height: 618px;
-	border: 2px solid red;
+	height: 622px;
+	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 24px 209px 62px 209px;
+	padding: 30px 212px 58px 212px;
 	text-align: center;
+	border: 2px solid red;
 
 }
-
 
 .hero-title {
 	width: 946px;
 	color: #0D1321;
 	font-size: 45px;
 	font-weight: 758;
-	line-height: 63px;
+	line-height: 60px;
 	margin-top: 32px;
 }
 
@@ -42,7 +42,9 @@ body {
 	color: #0D1321;
 	margin-top: 24px;
 	margin-bottom: 32px;
-	line-height: 24px;
+	line-height: 22px;
+	opacity: 0.7;
+
 }
 
 .btn {
@@ -52,4 +54,113 @@ body {
 	padding: 19px 22px;
 	border-radius: 8px;
 	background: #0D1321;
+}
+
+/* main section styles */
+main {
+	max-width: 1082px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+
+.web-development-section {
+	background: rgba(13, 19, 33, 0.02);
+	border-radius: 16px;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	border: 2px solid red;
+}
+
+.web-content-container {
+	max-width: 897px;
+	margin: 0 auto;
+	border: 2px solid red;
+}
+
+.web-content {
+	text-align: center;
+	margin: 0 auto;
+	border: 2px solid red;
+}
+
+.web-title {
+	font-size: 30px;
+	font-weight: 758px;
+}
+
+.web-description {
+	opacity: 0.7;
+	margin: 22px 46px 46px 46px;
+}
+
+/* coding world styles */
+
+.coding-container,
+.coding-life-future {
+	display: flex;
+	background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+	justify-content: space-around;
+	align-items: center;
+	padding: 46px;
+
+}
+
+.coding-container img,
+.coding-life-future img {
+	width: 259px;
+	height: 227px;
+}
+
+.coding,
+.coding-future {
+	width: 443px;
+}
+
+.coding-title,
+.help-title,
+.coding-future-title {
+	color: rgba(13, 19, 33, 0.70);
+	font-size: 22px;
+	font-weight: 664px;
+}
+
+.coding-description,
+.help-description,
+.coding-future-description {
+	color: #0D1321;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	opacity: 0.7;
+}
+
+.cd-btn {
+	color: #0D1321;
+	font-size: 18px;
+	font-weight: 474px;
+	padding: 11px 18px;
+	background-color: #FDFDFD;
+	border: 1px solid #0D1321;
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+/* help people creating styles */
+.help-people-container {
+	display: flex;
+	background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+	align-items: center;
+	gap: 30px;
+	padding: 46px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 46px;
+}
+
+.help-people-container img {
+	width: 227px;
+	height: 227px;
+}
+
+.help-people {
+	width: 453px;
 }
