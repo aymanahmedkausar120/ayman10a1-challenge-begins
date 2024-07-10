@@ -301,9 +301,9 @@ input {
 }
 
 .submit-btn {
-	color: black;
+	color: #0D1321;
 	font-size: 18px;
-	font-weight: 600px;
+	font-weight: bold;
 	background: #FFF;
 	border-radius: 8px;
 	padding: 16px 28px;
