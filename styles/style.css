@@ -169,25 +169,27 @@ main {
 	margin-top: 86px;
 }
 
-.inspiration-content {
+.inspiration-content,
+.target-content {
 	padding: 0 140px;
 	text-align: center;
 }
 
-.inspiration-title {
+.inspiration-title,
+.target-title {
 	color: #0D1321;
 	font-size: 30px;
 	font-weight: 758px;
 }
 
-.inspiration-description {
+.inspiration-description,
+.target-description {
 	color: #0D1321;
 	opacity: 0.7;
 	margin-top: 24px;
 }
 
 .video {
-	max-width: 1082px;
 	border-radius: 16px;
 	padding: 30px;
 	border: 1px solid rgba(13, 19, 33, 0.20);
@@ -197,4 +199,54 @@ main {
 .video iframe {
 	border-radius: 16px;
 	width: 100%;
+}
+
+/* curretn target container styles */
+.target-card-container {
+	margin-top: 174px;
+}
+
+/* card item styles */
+
+.card-container {
+	display: flex;
+	gap: 22px;
+	margin-top: 42px;
+}
+
+.card-item {
+	background: rgba(255, 76, 30, 0.05);
+	width: 346px;
+	align-items: flex-start;
+	border-radius: 16px;
+	padding: 36px;
+}
+
+#css-card {
+	background: rgba(0, 76, 232, 0.05);
+}
+
+#js-card {
+	background: rgba(255, 223, 0, 0.05);
+}
+
+.item-title {
+	color: #0D1321;
+	font-weight: 758px;
+	font-size: 22px;
+	margin-top: 22px;
+	margin-bottom: 8px;
+}
+
+.item-desctiption {
+	color: #0D1321;
+	opacity: 0.7;
+	margin-bottom: 22px;
+}
+
+.link-btn {
+	color: #0D1321;
+	text-decoration: none;
+	font-weight: 700px;
+	text-decoration-line: underline;
 }
